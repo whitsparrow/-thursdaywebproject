@@ -64,4 +64,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+      <snapshotRepository>
+        <id>nexus</id>
+        <name>devops</name>
+	<url>http://localhost:8081/repository/Thursdayproject/</url>
+      </snapshotRepository>
+      <repository>
+        <id>nexus</id>
+        <name>devops</name>
+	<url>http://localhost:8081/repository/Thursdayproject/</url>
+      </repository>	
+   </distributionManagement>
 </project>
